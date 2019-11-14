@@ -41,7 +41,7 @@ class App extends Component {
     this.setState({
       onChangeSearch: event.target.value,
     });
-    this.debouncedSearch()
+    this.debouncedSearch();
   }
 
   render() {
